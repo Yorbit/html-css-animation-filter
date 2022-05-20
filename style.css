@@ -77,15 +77,35 @@
 
 .ex-8-img {
     width: 500px;
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 20px;
 }
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 20px;
+    transform: scale(1.5);
 }
 
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 
 .ex-11-icon {
