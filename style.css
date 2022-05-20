@@ -24,12 +24,22 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+
+.ex-3-square:hover {
+    border-radius: 100%;
 }
 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
 }
 
 .ex-5-square {
@@ -37,6 +47,11 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
 }
 
 .ex-6-img,
